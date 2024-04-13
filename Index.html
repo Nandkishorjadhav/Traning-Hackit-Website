@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  *{
+    background-image: url(Back.avif);
+  }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  background-color: #333;
+  /* position: fixed; */
+}
+
+.navbar {
+  overflow: none;
+  background-color: #333;
+  background: transparent;
+  position: relative;
+  display: flex;
+  /* gap:25px; */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar a {
+  
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* .main {
+  padding: 16px;
+  margin-bottom: 30px;
+} */
+
+.navbar1 {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  /* bottom: 2px; */
+  text-align: center;
+}
+
+.logo{
+  justify-content: flex-start;
+  width:50px;
+  height:50px;
+  background-color: #333;
+  }
+  .logo1{
+  /* justify-content: flex-start; */
+  width:50px;
+  height:50px;
+  background-color: #333;
+  display: flex;
+  margin-left: 0px;
+  justify-content: left;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo1">
+    <img src="sggs.png" class="logo">  
+    <!-- <img src="sggs.png" class="logo">  -->
+    <img src="icon.png" alt="#" class="logo">
+    <a href="#">Hackit</a>
+  </div>
+  <a href="#" class="active">Home</a>
+  <a href="#">Events</a>
+  <a href="#">Contact Us</a>
+  <a href="#">About</a>
+</div>
+
+<div class="navbar1">
+  <p>CopyRight © 2024. All rights reserved | Official Hacking Club SGGSIE&T</p>
+</div>
+
+
+
+</body>
+</html>
